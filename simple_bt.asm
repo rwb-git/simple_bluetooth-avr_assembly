@@ -1,7 +1,3 @@
-; 8-10-2019
-;
-;   simple_bt derived from rgb2019.asm which was not responding to app rgb12 
-
 .include "m328def.inc"
 
 .cseg
