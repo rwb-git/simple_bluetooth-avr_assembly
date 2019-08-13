@@ -1,1 +1,1 @@
-# simple_bluetooth-avr_assembly
+simple_bt.asm was written for an arduino nano, and waits for a byte on the uart. If that byte is 0x42, it alternates between sending 256 bytes (00 01 .. FF) and the same except 7 fewer bytes. The associated app simple_bt (in simple_bluetooth-android) sends 0x42 when you tap GET DATA and will ignore the short set; the set of 256 will be displayed. 
